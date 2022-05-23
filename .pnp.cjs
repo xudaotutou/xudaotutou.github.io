@@ -33,8 +33,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@vue/devtools-api", "npm:6.1.4"],\
             ["@vuepress/client", "npm:2.0.0-beta.45"],\
+            ["@vuepress/shared", "npm:2.0.0-beta.45"],\
+            ["@vueuse/core", "virtual:4044fa24d5e556547c45f813c8e9249e811c77ae91519b8282979e5a69fabebc7c7f1c5b904b4de552742af7d469303dec2faf6f9d429da9bba6dc6d7857d937#npm:8.5.0"],\
             ["sass", "npm:1.52.1"],\
+            ["vue", "npm:3.2.36"],\
+            ["vue-router", "virtual:83ed03e5178341c185b20ed02fdc7ecee83f11ab2b96884e23620ad33eb7870eff8b459a7c3e5e11d0e375b5b623d41bfe644fff7b3dfc4707311fcbaa1f2f72#npm:4.0.15"],\
             ["vuepress", "npm:2.0.0-beta.45"]\
           ],\
           "linkType": "SOFT"\
@@ -920,8 +925,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["blog", "workspace:."],\
+            ["@vue/devtools-api", "npm:6.1.4"],\
             ["@vuepress/client", "npm:2.0.0-beta.45"],\
+            ["@vuepress/shared", "npm:2.0.0-beta.45"],\
+            ["@vueuse/core", "virtual:4044fa24d5e556547c45f813c8e9249e811c77ae91519b8282979e5a69fabebc7c7f1c5b904b4de552742af7d469303dec2faf6f9d429da9bba6dc6d7857d937#npm:8.5.0"],\
             ["sass", "npm:1.52.1"],\
+            ["vue", "npm:3.2.36"],\
+            ["vue-router", "virtual:83ed03e5178341c185b20ed02fdc7ecee83f11ab2b96884e23620ad33eb7870eff8b459a7c3e5e11d0e375b5b623d41bfe644fff7b3dfc4707311fcbaa1f2f72#npm:4.0.15"],\
             ["vuepress", "npm:2.0.0-beta.45"]\
           ],\
           "linkType": "SOFT"\
