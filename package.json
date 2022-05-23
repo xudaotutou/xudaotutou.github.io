@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/client": "^2.0.0-beta.45",
+    "sass": "^1.52.1",
+    "vuepress": "next"
+  }
+}
